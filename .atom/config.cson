@@ -1,0 +1,40 @@
+"*":
+  editor:
+    invisibles: {}
+    tabLength: 4
+    fontFamily: "Roboto Mono"
+    showIndentGuide: true
+  core:
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    autoHideMenuBar: true
+    disabledPackages: [
+      "autoclose-html"
+      "linter-js-standard"
+      "save-session"
+    ]
+    destroyEmptyPanes: false
+    openEmptyEditorOnStart: false
+  "autocomplete-plus": {}
+  "autoclose-html":
+    makeNeverCloseElementsSelfClosing: true
+  "node-debugger": {}
+  linter: {}
+  autosave:
+    enabled: true
+  "atom-terminal": {}
+  "atom-material-ui":
+    ui:
+      disableAnimations: true
+      accentColor: "Cyan"
+    tabs:
+      showTabIcons: "Show on active tab"
+    fonts:
+      useRoboto: true
+      useRobotoInUI: true
+      fontSize: "Big"
+    treeView:
+      compactTreeView: true
+    panels: {}
