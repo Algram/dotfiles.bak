@@ -13,10 +13,15 @@
     disabledPackages: [
       "autoclose-html"
       "linter-js-standard"
-      "save-session"
     ]
     destroyEmptyPanes: false
     openEmptyEditorOnStart: false
+  "exception-reporting":
+  welcome:
+    showOnStartup: false
+  "save-session":
+    windowX: 0
+    windowY: 64
   "autocomplete-plus": {}
   "autoclose-html":
     makeNeverCloseElementsSelfClosing: true
@@ -38,3 +43,11 @@
     treeView:
       compactTreeView: true
     panels: {}
+  "activate-power-mode":
+    particles:
+      size: {}
+      spawnCount: {}
+      totalCount: {}
+    screenShake: {}
+  "git-plus": {}
+  docblockr: {}
