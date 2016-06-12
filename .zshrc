@@ -83,6 +83,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias h="cd --"
+alias r="cd /"
+alias d="cd ~/Dokumente/Development"
+
 genpasswd() {
 	local l=$1
 		[ "$l" == "" ] && l=16
