@@ -86,6 +86,10 @@ source $ZSH/oh-my-zsh.sh
 alias h="cd --"
 alias r="cd /"
 alias d="cd ~/Dokumente/Development"
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
 
 genpasswd() {
 	local l=$1
