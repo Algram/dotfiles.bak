@@ -1,5 +1,13 @@
 # .bashrc
 
+alias h="cd --"
+alias r="cd /"
+alias d="cd ~/Dokumente/Development"
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
