@@ -8,6 +8,14 @@ alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 
+alias meminfo='free -m -l -t'
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+alias pscpu='ps auxf | sort -nr -k 3'
+alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+alias cpuinfo='lscpu' 
+alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
