@@ -1,53 +1,108 @@
 "*":
-  editor:
-    invisibles: {}
-    tabLength: 4
-    fontFamily: "Roboto Mono"
-    showIndentGuide: true
-  core:
-    themes: [
-      "atom-material-ui"
-      "atom-material-syntax"
-    ]
-    autoHideMenuBar: true
-    disabledPackages: [
-      "autoclose-html"
-      "linter-js-standard"
-    ]
-    destroyEmptyPanes: false
-    openEmptyEditorOnStart: false
-  "exception-reporting":
-  welcome:
-    showOnStartup: false
-  "save-session":
-    windowX: 0
-    windowY: 64
-  "autocomplete-plus": {}
-  "autoclose-html":
-    makeNeverCloseElementsSelfClosing: true
-  "node-debugger": {}
-  linter: {}
-  autosave:
-    enabled: true
-  "atom-terminal": {}
-  "atom-material-ui":
-    ui:
-      disableAnimations: true
-      accentColor: "Cyan"
-    tabs:
-      showTabIcons: "Show on active tab"
-    fonts:
-      useRoboto: true
-      useRobotoInUI: true
-      fontSize: "Big"
-    treeView:
-      compactTreeView: true
-    panels: {}
   "activate-power-mode":
     particles:
       size: {}
       spawnCount: {}
       totalCount: {}
     screenShake: {}
-  "git-plus": {}
+  "atom-beautify":
+    css:
+      indent_size: 2
+      newline_between_rules: true
+    general:
+      analytics: false
+      beautifyEntireFileOnSave: false
+    html:
+      indent_size: 2
+    js:
+      indent_size: 2
+    scss:
+      indent_size: 2
+      newline_between_rules: true
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 128
+        green: 222
+        blue: 234
+        alpha: 1
+      accentColor:
+        red: 82
+        green: 140
+        blue: 148
+        alpha: 1
+      predefinedColor: "Cyan"
+    fonts: {}
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      animations: false
+  "atom-terminal": {}
+  "atom-ternjs":
+    useSnippets: true
+  "autoclose-html":
+    makeNeverCloseElementsSelfClosing: true
+  "autocomplete-plus": {}
+  autosave:
+    enabled: true
+  core:
+    autoHideMenuBar: true
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "autoclose-html"
+      "spell-check"
+      "markdown-scroll-sync"
+      "markdown-themeable-pdf"
+      "markdown-toc"
+      "jquery-snippets"
+      "git-plus"
+      "jshint"
+      "linter-eslint"
+    ]
+    openEmptyEditorOnStart: false
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
   docblockr: {}
+  editor:
+    fontFamily: "Roboto Mono"
+    invisibles: {}
+    showIndentGuide: true
+  "exception-reporting":
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-plus": {}
+  linter: {}
+  "linter-eslint":
+    globalNodePath: "/home/.nvm/versions/node/v6.2.1"
+  "markdown-preview": {}
+  "markdown-themeable-pdf":
+    codeHighlightingTheme: "github.css"
+    enableCustomFooter: false
+    enableCustomHeader: false
+    enableLinkify: true
+    imageQuality: 1000
+    openPdfInAtomWorkspace: false
+    pageBorder: "2cm"
+  "node-debugger": {}
+  pigments:
+    autocompleteScopes: [
+      ".source.css"
+      ".source.css.less"
+      ".source.sass"
+      ".source.css.scss"
+      ".source.stylus"
+      ".source.scss"
+    ]
+  "save-session":
+    dataSaveFolder: "/home/.atom/packages/save-session/projects"
+    windowHeight: 1016
+    windowWidth: 1920
+    windowX: 0
+    windowY: 64
+  "spell-check": {}
+  welcome:
+    showOnStartup: false
