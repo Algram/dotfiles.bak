@@ -49,17 +49,14 @@
     enabled: true
   core:
     autoHideMenuBar: true
-    destroyEmptyPanes: false
     disabledPackages: [
       "autoclose-html"
       "spell-check"
       "markdown-scroll-sync"
-      "markdown-themeable-pdf"
       "markdown-toc"
       "jquery-snippets"
       "git-plus"
       "jshint"
-      "linter-eslint"
     ]
     openEmptyEditorOnStart: false
     themes: [
@@ -72,12 +69,16 @@
     invisibles: {}
     showIndentGuide: true
   "exception-reporting":
+    userId: ""
   "git-diff":
     showIconsInEditorGutter: true
   "git-plus": {}
   linter: {}
   "linter-eslint":
+    disableWhenNoEslintConfig: false
+    eslintrcPath: "/home/.atom/linting/.eslintrc"
     globalNodePath: "/home/.nvm/versions/node/v6.2.1"
+    useGlobalEslint: true
   "markdown-preview": {}
   "markdown-themeable-pdf":
     codeHighlightingTheme: "github.css"
