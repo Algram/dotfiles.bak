@@ -83,21 +83,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias h="cd --"
-alias r="cd /"
-alias d="cd ~/Dokumente/Development"
+alias update='sudo dnf clean all && sudo dnf update'
+
+alias h='cd --'
+alias r='cd /'
+alias d='cd ~/Dokumente/Development'
 alias ..='cd ..'
 alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 
-alias meminfo='free -m -l -t'
-alias psmem='ps auxf | sort -nr -k 4'
-alias psmem10='ps auxf | sort -nr -k 4 | head -10'
-alias pscpu='ps auxf | sort -nr -k 3'
-alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
-alias cpuinfo='lscpu' 
-alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
+webmTOmp4 () {
+      ffmpeg -i "$1".webm -qscale 0 "$1".mp4
+}
 
 genpasswd() {
 	local l=$1
