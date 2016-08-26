@@ -83,11 +83,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias update='sudo dnf clean all && sudo dnf update'
+alias update='sudo dnf upgrade --refresh'
 
 alias h='cd --'
 alias r='cd /'
-alias d='cd ~/Dokumente/development'
+alias d='cd ~/Documents/development'
 alias ..='cd ..'
 alias ...='cd ../../../'
 alias ....='cd ../../../../'
