@@ -93,6 +93,8 @@ alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 
+echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
+
 webmTOmp4 () {
       ffmpeg -i "$1".webm -qscale 0 "$1".mp4
 }
