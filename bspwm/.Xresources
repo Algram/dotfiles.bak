@@ -1,0 +1,67 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    92
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+!-------------------------------------------------------------------------------
+! URxvt settings
+!-------------------------------------------------------------------------------
+
+URxvt.depth:                256
+
+! Padding
+URxvt.internalBorder:       10
+
+! Fonts
+URxvt*font:                 xft:Roboto Mono:style=Regular:pixelsize=13
+URxvt*boldFont:             xft:Roboto Mono:style=Medium:pixelsize=13
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! special
+*.foreground:   #eeffff
+*.background:   #2e343f
+*.cursorColor:  #c0c5ce
+
+! black
+*.color0:       #222222
+*.color8:       #2e343f
+
+! red
+*.color1:       #d44956
+*.color9:       #d44956
+
+! green
+*.color2:       #c3e88d
+*.color10:      #c3e88d
+
+! yellow
+*.color3:       #fac55b
+*.color11:      #fac55b
+
+! blue
+*.color4:       #82aaff
+*.color12:      #82aaff
+
+! magenta
+*.color5:       #c792ea
+*.color13:      #c792ea
+
+! cyan
+*.color6:       #89ddff
+*.color14:      #89ddff
+
+! white
+*.color7:       #eeffff
+*.color15:      #eeffff
+
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
