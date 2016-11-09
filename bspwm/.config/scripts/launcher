@@ -1,0 +1,5 @@
+#!/bin/bash
+
+font="Roboto Mono"
+
+dmenu_run -o 0.8 -fn "Roboto Mono" -h 50 -w 500 -x 680 -y 490 -sb '#89ddff' -nf '#000000' -nb '#82aaff' -sf '#000000' 
