@@ -31,10 +31,10 @@ module.exports = {
         top: 0;
       }
       .terms_terms {
-        margin-top: -10px;
+        margin-top: 0;
       }
       .terms_termsShifted {
-        margin-top: 18px;
+        margin-top: 30px;
       }
     `,
 
