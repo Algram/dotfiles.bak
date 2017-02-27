@@ -83,7 +83,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias update='sudo dnf upgrade --refresh'
+alias upgrade='sudo dnf upgrade --refresh'
 
 alias h='cd --'
 alias r='cd /'
@@ -97,12 +97,6 @@ alias .....='cd ../../../../'
 
 webmTOmp4 () {
       ffmpeg -i "$1".webm -qscale 0 "$1".mp4
-}
-
-genpasswd() {
-	local l=$1
-		[ "$l" == "" ] && l=16
-		tr -dc A-Za-z0-9_?!%+ < /dev/urandom | head -c ${l} | xargs
 }
 
 export NVM_DIR="/home/raphaelg/.nvm"
