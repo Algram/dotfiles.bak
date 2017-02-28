@@ -93,6 +93,11 @@ alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 
+# Android dev exports
+export ANDROID_HOME=${HOME}/android
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
 # echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
 
 webmTOmp4 () {
