@@ -93,6 +93,9 @@ alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 
+export GOPATH=$HOME/Documents/development/golang
+export PATH=${PATH}:${GOPATH}/bin
+
 # Android dev exports
 export ANDROID_HOME=${HOME}/android
 export PATH=${PATH}:${ANDROID_HOME}/tools
